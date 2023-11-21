@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto A</title>
+    <link rel="icon" href="img/img1.jpg">
+    <style>
+        header {
+            background-color: rosybrown;
+            color: white;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: inline;
+        }
+
+        nav li {
+            display: inline;
+            color: black;
+        }
+
+        nav li:hover {
+            text-decoration: underline;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a.current {
+            color: black;
+        }
+
+        aside a {
+            text-decoration: none;
+            color: palevioletred;
+
+        }
+
+        aside a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+
+        aside ul {
+            list-style-type: none;
+        }
+
+        body {
+            background-color: #DCF9E4;
+            color: black;
+            font-size: 20px;
+        }
+
+        .parrafo {
+            color: gray;
+        }
+
+        footer {
+            background-color: rosybrown;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="img/img1.jpg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="current">Inicio</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="ubi.html">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <h1>Bienvenidos/as</h1>
+        <center>
+            <video autoplay muted loop playsinline width="700" height="500">
+                <source src="img/vid1.mp4" type="video/mp4">
+            </video>
+        </center>
+        <aside>
+            <h1>Ejemplos</h1>
+            <p class="parrafo">Sesiones privadas, pueden traer acompañantes.</p>
+            <ul>
+                <li><a href="#sesion1">Bautizos</a></li>
+                <li><a href="#sesion2">Comuniones</a></li>
+                <li><a href="#sesion3">Bodas</a></li>
+                <li><a href="#sesion4">Sobre mí</a></li>
+            </ul>
+        </aside>
+        <article id="sesion1">
+            <h2>Bautizos</h2>
+            <p class="parrafo">Momento emotivo</p>
+            <ol>
+                <li>Atención constante</li>
+                <li>Espacio cómodo</li>
+                <li>Hacerlo entretenido</li>
+            </ol>
+        </article>
+        <article id="sesion2">
+            <h2>Comuniones</h2>
+            <p class="parrafo">Recuerdo divertido</p>
+            <ul>
+                <li>Ser paciente</li>
+                <li>Tener en cuenta sus propuestas</li>
+                <li>Utilizar accesorios temáticos</li>
+            </ul>
+        </article>
+        <article id="sesion3">
+            <h2>Bodas</h2>
+            <p class="parrafo">Evento especial</p>
+            <dl>
+                <dt>Antes</dt>
+                <dd>Preboda</dd>
+                <dt>Durante</dt>
+                <dd>Ceremonia y banquete</dd>
+                <dt>Después</dt>
+                <dd>Postboda</dd>
+            </dl>
+        </article>
+        <article id="sesion4">
+            <h2>Sobre mí</h2>
+            <blockquote>
+                <p>Apasionada de la fotografía. Enmarco momentos, imprimo recuerdos
+                    <br>
+                    y creo experiencias únicas mediante sesiones personalizadas.
+                </p>
+            </blockquote>
+        </article>
+        <br>
+        <a href="index.html"><img style="position: fixed; bottom: 22%; right: 2%" src="img/img2.jpg" width="30"
+                height="30"></a>
+    </main>
+    <footer>
+        <img src="img/img1.jpg" alt="logo" height="40" width="40">
+        <p>Aroa Alvite Rodríguez</p>
+        <a href="https://github.com/aroalvite?tab=repositories">Github&#128247;</a>
+    </footer>
+</body>
+
+</html>

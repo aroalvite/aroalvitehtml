@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto A</title>
+    <link rel="icon" href="img/img1.jpg">
+    <style>
+        header {
+            background-color: rosybrown;
+            color: white;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: inline;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        nav li:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a.current {
+            color: black;
+        }
+
+        body {
+            background-color: #DCE4F9;
+            color: black;
+            font-size: 20px;
+        }
+
+        h2 {
+            color: gray;
+        }
+
+        table {
+            width: 40%;
+            border-collapse: collapse;
+            border: 1px solid white;
+        }
+
+        td {
+            padding: 10x;
+            text-align: center;
+            border: 1px solid white;
+        }
+
+        th {
+            background-color: #B0B6B8;
+            color: white;
+            border: 1px solid white;
+        }
+
+        img {
+            max-width: 300px;
+            height: auto;
+        }
+
+        footer {
+            background-color: rosybrown;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="img/img1.jpg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="gallery.html" class="current">Galería</a></li>
+                <li><a href="ubi.html">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <h1>Sesiones</h1>
+        <center>
+            <h2>Cita</h2>
+            <p>
+            <blockquote>
+                <q>Fotografiar es colocar la cabeza, el ojo y el corazón en un mismo eje. Henri Cartier-Bresson</q>
+            </blockquote>
+            </p>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Descripción</th>
+                    </tr>
+                    <tr>
+                        <td><img src="img/img5.jpg" alt="foto"></td>
+                        <td>Sesión bautizo</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/img6.jpg" alt="foto"></td>
+                        <td>Sesión comunión</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/img7.jpg" alt="foto"></td>
+                        <td>Sesión boda</td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+        <br>
+        <a href="gallery.html"><img style="position: fixed; bottom: 22%; right: 2%" src="img/img2.jpg" width="30"
+                height="30"></a>
+    </main>
+    <footer>
+        <img src="img/img1.jpg" alt="logo" height="40" width="40">
+        <p>Aroa Alvite Rodríguez</p>
+        <a href="https://github.com/aroalvite?tab=repositories">Github&#128247;</a>
+    </footer>
+</body>
+
+</html>

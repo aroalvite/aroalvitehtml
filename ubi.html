@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto A</title>
+    <link rel="icon" href="img/img1.jpg">
+    <style>
+        header {
+            background-color: rosybrown;
+            color: white;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: inline;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        nav li:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a.current {
+            color: black;
+        }
+
+        body {
+            background-image: url(img/img4.jpg);
+            background-size: cover;
+            color: white;
+            font-size: 20px;
+        }
+
+        .parrafo {
+            color: black;
+        }
+
+        footer {
+            background-color: rosybrown;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="img/img1.jpg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="ubi.html" class="current">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <h2>Ven a conocernos</h2>
+        <p class="parrafo">Situados frente al centro de salud, donde podréis encontrar aparcamiento.
+            <br><br>
+            Abrimos de lunes a viernes, con horario de mañana 9:00-13:30 y tarde 16:30-20:30
+            <br><br>
+            Dirección Av. Galicia, 11, 36630 Cambados, Pontevedra.
+        </p>
+        <p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2940.9245323488617!2d-8.81825462395509!3d42.51441172533607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f6ab821f50a75%3A0x4d9f63e5aadd8ca8!2sFoto%20A!5e0!3m2!1ses!2ses!4v1697054099362!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+        <video autoplay muted loop playsinline width="700" height="500">
+            <source src="img/vid2.mp4" type="video/mp4">
+        </video>
+        <a href="ubi.html"><img style="position: fixed; bottom: 22%; right: 2%" src="img/img2.jpg" width="30"
+                height="30"></a>
+    </main>
+    <footer>
+        <img src="img/img1.jpg" alt="logo" height="40" width="40">
+        <p>Aroa Alvite Rodríguez</p>
+        <a href="https://github.com/aroalvite?tab=repositories">Github&#128247;</a>
+    </footer>
+</body>
+
+</html>
